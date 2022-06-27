@@ -18,7 +18,7 @@ export function Video(props: VideoProps) {
         }
     })
 
-    console.log(data)
+    {console.log(data?.lesson?.videoId)}
 
     if (!data || !data.lesson) {
 
